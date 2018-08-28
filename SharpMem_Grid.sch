@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:SharpMem_Grid-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -239,9 +240,9 @@ F 3 "" H 6900 5150 50  0000 C CNN
 	1    6900 5150
 	1    0    0    -1  
 $EndComp
-Text Label 7400 4250 2    60   ~ 0
-MOSI
 Text Label 7400 4350 2    60   ~ 0
+MOSI
+Text Label 7400 4250 2    60   ~ 0
 SCLK
 Text Label 7400 4450 2    60   ~ 0
 LCD_SS
@@ -479,7 +480,7 @@ DISP
 Text Label 4150 5050 0    60   ~ 0
 MOSI
 $Comp
-L USB_B P1
+L USB_B-RESCUE-SharpMem_Grid P1
 U 1 1 5B8487E7
 P 2600 2300
 F 0 "P1" V 2800 2250 50  0000 C CNN
@@ -802,4 +803,6 @@ Wire Wire Line
 Wire Wire Line
 	5700 4650 5700 4850
 Connection ~ 5400 4850
+Text Notes 3750 3450 0    60   ~ 0
+PCB 1.25X1.375
 $EndSCHEMATC

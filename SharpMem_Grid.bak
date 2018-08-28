@@ -1,6 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:Solutions
-LIBS:Tympan
+LIBS:SharpMem_Grid-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,7 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:OpenBCI
+LIBS:Solutions
 LIBS:SharpMem_Grid-cache
 EELAYER 25 0
 EELAYER END
@@ -91,7 +90,7 @@ U 1 1 5B3536A8
 P 2150 6800
 F 0 "SW2" H 2300 6910 50  0000 C CNN
 F 1 "PTS810_SJK_250_SMTR_LFS" H 2150 6600 50  0000 C CNN
-F 2 "OpenBCI:PTS810" H 2150 6800 50  0001 C CNN
+F 2 "Solutions:PTS810" H 2150 6800 50  0001 C CNN
 F 3 "" H 2150 6800 50  0000 C CNN
 	1    2150 6800
 	1    0    0    -1  
@@ -102,7 +101,7 @@ U 1 1 5B353717
 P 2100 4750
 F 0 "SW1" H 2000 4550 50  0000 C CNN
 F 1 "PTS810_SJK_250_SMTR_LFS" H 1950 4900 50  0000 C CNN
-F 2 "OpenBCI:PTS810" H 2100 4750 50  0001 C CNN
+F 2 "Solutions:PTS810" H 2100 4750 50  0001 C CNN
 F 3 "" H 2100 4750 50  0000 C CNN
 	1    2100 4750
 	1    0    0    -1  
@@ -241,9 +240,9 @@ F 3 "" H 6900 5150 50  0000 C CNN
 	1    6900 5150
 	1    0    0    -1  
 $EndComp
-Text Label 7400 4250 2    60   ~ 0
-MOSI
 Text Label 7400 4350 2    60   ~ 0
+MOSI
+Text Label 7400 4250 2    60   ~ 0
 SCLK
 Text Label 7400 4450 2    60   ~ 0
 LCD_SS
@@ -481,7 +480,7 @@ DISP
 Text Label 4150 5050 0    60   ~ 0
 MOSI
 $Comp
-L USB_B P1
+L USB_B-RESCUE-SharpMem_Grid P1
 U 1 1 5B8487E7
 P 2600 2300
 F 0 "P1" V 2800 2250 50  0000 C CNN
