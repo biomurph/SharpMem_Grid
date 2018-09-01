@@ -465,9 +465,9 @@ Text Label 2350 5800 2    60   ~ 0
 PROG
 Text Label 2550 4550 2    60   ~ 0
 MISO
-Text Label 2550 4450 2    60   ~ 0
-EE_SS
 Text Label 2550 4850 2    60   ~ 0
+EE_SS
+Text Label 3900 4550 0    60   ~ 0
 LCD_SS
 Text Label 3900 4950 0    60   ~ 0
 D-
@@ -475,7 +475,7 @@ Text Label 3900 4850 0    60   ~ 0
 D+
 Text Label 3900 5150 0    60   ~ 0
 SCLK
-Text Label 3900 5250 0    60   ~ 0
+Text Label 3900 4650 0    60   ~ 0
 DISP
 Text Label 3900 4350 0    60   ~ 0
 MOSI
