@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name SharpMem_Grid-rescue)(type Legacy)(uri ${KIPRJMOD}/SharpMem_Grid-rescue.lib)(options "")(descr ""))
+  (lib (name Solutions1)(type Legacy)(uri ${KIPRJMOD}/Parts_Library/Solutions.lib)(options "")(descr ""))
+)
